@@ -24,10 +24,10 @@ const currentSongEl = document.getElementById('currentSong');
 const songListEl = document.getElementById('songList');
 
 const songs = [
-    { title: "LURN 2 LUVVV", file: "audio/lurn2luv.mp3" },
-    { title: "NVR", file: "audio/NVR.mp3" },
-    { title: "SUNBURN", file: "audio/sunburn.mp3" },
-    { title: "Days ovr the sun", file: "audio/daysoverthesun.mp3" }
+    { title: "LURN 2 LUVVV", file: "/lurn2luv.mp3" },
+    { title: "NVR", file: "/NVR.mp3" },
+    { title: "SUNBURN", file: "/sunburn.mp3" },
+    { title: "Days ovr the sun", file: "/daysoverthesun.mp3" }
 ];
 
 function updateQuestion() {
